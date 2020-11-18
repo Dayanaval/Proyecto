@@ -1,0 +1,242 @@
+body {
+    background-color: black;
+}
+.cabecera {
+    background-image: url("https://i.pinimg.com/originals/54/a5/26/54a526c47fcddda901bc1a7f7af4395c.png");
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 24.5%;
+    margin-top: 5%;
+}
+.foto img {
+    width: 165px;
+    height: 165px;
+    background-size: content;
+    flex-direction:row;
+    margin-left: 12%;
+    padding: 3%;
+    border-radius: 50%;
+}
+.datos {
+    width: 80%;
+    color: whitesmoke;
+}
+#nombre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+#ocupacion {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+}
+.space {
+    background-color: rgb(62, 9, 73);
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 24.5%;
+}
+.cuerpo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 24.5%;
+}
+.columna1 {
+    background-color: rgb(62, 9, 73);
+    width: 32%;
+}
+#contacto {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+#whatsapp {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+}
+#E-mail {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 5%;
+}
+#direccion {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 5%;
+}
+#curso {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 24%;
+    margin-top: 25%;
+}
+#descripcionCurso {
+    font-family: cursive;
+    height: 120px;
+    color: whitesmoke;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+#hobbies {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 23%;
+    margin-top: 0%;
+}
+#dibujo {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+}
+#leer {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 3%;
+}
+#musica {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 3%;
+}
+#manualidades {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 3%;
+}
+#jugar {
+    font-family: cursive;
+    margin-left: 3%;
+    color: whitesmoke;
+    margin-top: 3%;
+}
+.copyright {
+    margin-top: 40%;
+    margin-left: 3%;
+    color: whitesmoke;
+    font-size: 80%;
+}
+.columna2 {
+    background-color: whitesmoke;
+    width: 68%;
+}
+h2 {
+    color: rgb(62, 9, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+#sobreMi {
+    color: rgb(62, 9, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+}
+#sobreMi::after {
+    content:"";
+    position: absolute;
+    width: 284%;
+    height: 10%;
+    background-color: currentColor;
+    top: 0.5em;
+}
+#sobreMi::after {
+    left:105%;
+}
+#descripcionSobreMi {
+    font-family: cursive;
+    height: 120px;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#habilidades {
+    color: rgb(62, 9, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    margin-top: 25%;
+}
+#habilidades::after {
+    content:"";
+    position: absolute;
+    width: 184%;
+    height: 10%;
+    background-color: currentColor;
+    top: 0.5em;
+}
+#habilidades::after {
+    left:105%;
+}
+.habilidadUno {
+    font-family: cursive;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+#progresoUno {
+    margin-left: 30%;
+}
+.habilidadDos {
+    font-family: cursive;
+    margin-top: 1%;
+    margin-left: 0%;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+#progresoDos {
+    margin-left: 18.3%;
+}
+.habilidadTres {
+    font-family: cursive;
+    margin-top: 1%;
+    margin-left: 0%;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+#progresoTres {
+    margin-left: 9.1%;
+}
+.habilidadCuatro {
+    font-family: cursive;
+    margin-top: 1%;
+    margin-left: 0%;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+#progresoCuatro {
+    margin-left: 21%;
+}
+#actitudes {
+    color: rgb(62, 9, 73);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+#actitudes::after {
+    content:"";
+    position: absolute;
+    width: 249%;
+    height: 10%;
+    background-color: currentColor;
+    top: 0.5em;
+}
+#actitudes::after {
+    left: 105%;
+}
+#actitud {
+    font-family: cursive;
+    margin-top: 2%;
+}
